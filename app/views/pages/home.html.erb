@@ -10,7 +10,7 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
+      <li class="nav-item">
         <%= link_to "El Almuerzo del día", "#", class: "nav-link" %>
       </li>
       <li class="nav-item">
@@ -24,11 +24,54 @@
   <div class="container">
     <div class="container-elements">
       <%= image_tag("https://res.cloudinary.com/dlopez10g/image/upload/v1582051312/Logo_Mesa_de_trabajo_1.png", alt: "lafiambreralogo", class: "banner-logo") %>
-      <%= link_to "El Almuerzo del día", "#", class: "btn btn-flat"  %>
+      <%= link_to "El Almuerzo del día", "#", class: "btn btn-flat btn-primary-lafi"  %>
     </div>
   </div>
 </div>
 
 <section class="perks">
-
+  <div class="perk-container">
+    <div class="perk row">
+      <%= image_tag "https://res.cloudinary.com/dlopez10g/image/upload/v1582080633/Frame_2_1.png", alt: "comida-saludable", class: "perk-image col-sm-12 col-md-6 float-right"%>
+      <div class="perk-text-container col-sm-12 col-md-6">
+        <div class="vertical-aligmnent">
+          <h3>
+            Comida Casera
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar luctus sem, eget porta orci. Maecenas molestie dui id diam feugiat, eu tincidunt mauris aliquam. Duis commodo vitae ligula et interdum. Maecenas faucibus mattis imperdiet. In rhoncus ac ligula id ultricies.
+          </p>
+          <button type="button" class="btn btn-flat btn-secondary-lafi">Ver más</button>
+        </div>
+      </div>
+    </div>
+    <div class="perk row flex-reverse">
+      <%= image_tag "https://res.cloudinary.com/dlopez10g/image/upload/v1582080633/Frame_2_1.png", alt: "comida-saludable", class: "perk-image col-sm-12 col-md-6"%>
+      <div class="perk-text-container col-sm-12 col-md-6">
+        <div class="vertical-aligmnent">
+          <h3>
+            Comida saludable
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar luctus sem, eget porta orci. Maecenas molestie dui id diam feugiat, eu tincidunt mauris aliquam. Duis commodo vitae ligula et interdum. Maecenas faucibus mattis imperdiet. In rhoncus ac ligula id ultricies.
+          </p>
+          <button type="button" class="btn btn-flat btn-secondary-lafi">Ver más</button>
+        </div>
+      </div>
+    </div>
+    <div class="perk row">
+      <%= image_tag "https://res.cloudinary.com/dlopez10g/image/upload/v1582080633/Frame_2_1.png", alt: "comida-saludable", class: "perk-image col-sm-12 col-md-6"%>
+      <div class="perk-text-container col-sm-12 col-md-6">
+        <div class="vertical-aligmnent">
+          <h3>
+            Comida saludable
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar luctus sem, eget porta orci. Maecenas molestie dui id diam feugiat, eu tincidunt mauris aliquam. Duis commodo vitae ligula et interdum. Maecenas faucibus mattis imperdiet. In rhoncus ac ligula id ultricies.
+          </p>
+          <button type="button" class="btn btn-flat btn-secondary-lafi">Ver más</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
