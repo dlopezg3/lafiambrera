@@ -1,2 +1,34 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+  <%= link_to "#", class: "navbar-brand" do %>
+    <%= image_tag "https://res.cloudinary.com/dlopez10g/image/upload/v1582051312/Logo_Mesa_de_trabajo_1.png" %>
+  <% end %>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <%= link_to "El Almuerzo del día", "#", class: "nav-link" %>
+      </li>
+      <li class="nav-item">
+        <%= link_to "Planes empresariales", "#", class: "nav-link" %>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="banner">
+  <div class="container">
+    <div class="container-elements">
+      <%= image_tag("https://res.cloudinary.com/dlopez10g/image/upload/v1582051312/Logo_Mesa_de_trabajo_1.png", alt: "lafiambreralogo", class: "banner-logo") %>
+      <%= link_to "El Almuerzo del día", "#", class: "btn btn-flat"  %>
+    </div>
+  </div>
+</div>
+
+<section class="perks">
+
+</section>

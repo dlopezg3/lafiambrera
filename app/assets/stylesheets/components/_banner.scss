@@ -1,0 +1,42 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  background-image: url("https://res.cloudinary.com/dlopez10g/image/upload/v1582056141/iPhone_8_Plus_-_1_1.png"), linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
+  height: 80vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+}
+.container {
+  text-align: center;
+  max-width: 500px
+}
+.banner-logo {
+  width: 100%;
+}
+@media(min-width: 768px) {
+  .banner {
+    background-image: url("https://res.cloudinary.com/dlopez10g/image/upload/v1582056165/iPad_mini_-_1.png")
+  }
+}
+@media(min-width: 1280px) {
+  .banner {
+    background-image: url("https://res.cloudinary.com/dlopez10g/image/upload/v1582056121/MacBook_-_1_5.png")
+  }
+}
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
